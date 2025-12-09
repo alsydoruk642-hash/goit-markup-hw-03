@@ -67,6 +67,23 @@ body {
   background-color: var(--white);
 }
 /* Header Navigation Styles   */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.header-nav-unordered {
+  display: flex;
+  gap: 40px;
+}
+
 .header-nav-logo-web {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -75,6 +92,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 .header-nav-logo-studio {
   font-family: Raleway, sans-serif;
@@ -92,6 +110,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  display: inline-block;
+  padding: 24px 0;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -100,6 +120,11 @@ body {
 .header-address {
   font-style: normal;
 }
+.header-address-unordered {
+  display: flex;
+  gap: 40px;
+}
+
 .header-address-contacts {
   font-family: var(--font-family);
   font-weight: 400;
