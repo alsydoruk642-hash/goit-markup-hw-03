@@ -12,6 +12,51 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
+/* Загальні налаштування стилів */
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: currentColor;
+}
+button {
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
 
 body {
   font-family: "Roboto", sans-serif;
