@@ -13,6 +13,9 @@
   --dairy: #fcfcfc;
 }
 /* Загальні налаштування стилів */
+ul {
+  list-style: none;
+}
 .container {
   max-width: 1158px;
   padding-left: 15px;
